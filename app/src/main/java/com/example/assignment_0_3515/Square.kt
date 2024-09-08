@@ -4,7 +4,7 @@ class Square (_name: String) : Shape(_name){
     var height: Double = 0.0
     var length: Double = 0.0
 
-    fun setDimensions (height: Double, length: Double) {
+    fun setDimensions(height: Double, length: Double) {
         this.height = height
         this.length = length
     }
