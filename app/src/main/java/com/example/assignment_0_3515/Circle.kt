@@ -8,7 +8,7 @@ class Circle (_name: String) : Shape(_name) {
     }
 
     override fun printDimensions() {
-        TODO("Not yet implemented")
+        println("Circle: radius = $radius ")
     }
 
     override fun getArea(): Double {

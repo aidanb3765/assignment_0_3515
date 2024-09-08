@@ -8,7 +8,7 @@ class EquilateralTri (_name: String) : Shape(_name){
     }
 
     override fun printDimensions() {
-        TODO("Not yet implemented")
+        println("Equilateral Triangle: sides = $side")
     }
 
     override fun getArea(): Double {

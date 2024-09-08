@@ -12,7 +12,7 @@ class Triangle (_name: String) : Shape(_name) {
     }
 
     override fun printDimensions() {
-        TODO("Not yet implemented")
+        println("Triangle: side A = $sideA ; side B = $sideB ; side C = $sideC")
     }
 
     override fun getArea(): Double {

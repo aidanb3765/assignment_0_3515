@@ -10,7 +10,7 @@ class Square (_name: String) : Shape(_name){
     }
 
     override fun printDimensions() {
-        TODO("Not yet implemented")
+        println("Square: height = $height ; length = $length")
     }
 
     override fun getArea(): Double {
